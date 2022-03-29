@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+
+    <body>
+        <h1>배열(Array)</h1>
+        <script>
+            var topic1 = 'html';
+            var topic2 = 'css';
+            var topic3 = 'js';
+
+            let topics = ['html', 'css', 'js'];
+            var members = ['egoing', 'leezche', 'duru'];
+
+            console.log(topics.length);
+            console.log(topics[0]);
+        </script>
+        
+        <h1>반복문(Loop)</h1>
+        <script>
+            console.log(1);
+            for(let i=0 ; i<3 ; i=i+1){
+                console.log(2);
+                console.log(3);
+            }
+            console.log(4);
+        </script>
+
+        <h1>Array + Loop</h1>
+        <script>
+            topics = ['html', 'css', 'js', 'python'];
+            // topics = ['html', 'css']; 하면 'undefined'가 나옴.
+            for(let i=0; i<topics.length;i=i+1){
+                // console.log('i=>','<li>'+topics[i]+'</li>');
+                document.write('<li>'+topics[i]+'</li>');
+            }
+        </script>
+
+
+
+    </body>
+</html>

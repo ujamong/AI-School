@@ -1,0 +1,55 @@
+<html>
+    <body>
+        <h1>function</h1>
+        <script>
+            function abc(){
+                console.log('a');
+                console.log('b');
+                console.log('c');
+            }
+            console.log(1);
+            console.log(2);
+            abc();
+            console.log(3);
+            abc();
+            console.log(4);
+            abc();
+            console.log(5);
+            abc();
+            console.log(6);
+            abc();
+            console.log(7);
+            console.log(8);
+        </script>
+        <h1>VAT</h1>
+        <script>
+            function 부가세계산(가격, 부가세율){  //매개변수, parameter
+                //let 가격 = 1000;
+                //let 부가세율 = 0.1;
+                let 부가세 = 가격 * 부가세율;
+                //console.log(부가세);
+                return 부가세;
+            }
+            // 부가세를 계산하는 기능
+            // 계산한 부가세를 console로 나타나게 하는 기능
+
+            // console.log(1);
+            // console.log(2);
+            
+            //부가세계산();
+            부가세계산(2000, 0.1);   // 인자, argument, 입력값
+
+            //console.log(3);
+        </script>
+
+        <h1>SUM</h1>>
+        <script>
+            function sum(val1, val2){
+                return val1 + val2; // return이후의 코드는 실행안됨. 함수의 값이 확정됨. 함수의 종류조건임.
+                alert(1);
+                alert(2);
+            }
+            alert(sum(100,200)*10)
+        </script>
+    </body>
+</html>
